@@ -1,0 +1,32 @@
+{
+  "productName": "tarkov-currency-convertor",
+  "version": "1.0.0",
+  "identifier": "com.hooshu.dev",
+  "build": {
+    "beforeDevCommand": "yarn dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "yarn build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Tarkov Currency Convertor",
+        "width": 290,
+        "height": 335,
+        "resizable": true,
+        "alwaysOnTop": true,
+        "maximizable": false,
+        "decorations": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": false,
+    "targets": "all",
+    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"]
+  }
+}
