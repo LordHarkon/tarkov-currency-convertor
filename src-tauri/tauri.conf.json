@@ -14,7 +14,7 @@
         "title": "Tarkov Currency Convertor",
         "width": 290,
         "height": 335,
-        "resizable": true,
+        "resizable": false,
         "alwaysOnTop": true,
         "maximizable": false,
         "decorations": false
